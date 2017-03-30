@@ -6,7 +6,7 @@
 #    By: ssumodhe <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/08 11:04:13 by ssumodhe          #+#    #+#              #
-#    Updated: 2017/03/09 15:37:03 by ssumodhe         ###   ########.fr        #
+#    Updated: 2017/03/30 16:54:21 by ssumodhe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ NAME = libft.a
 INCLUDES = libft.h get_next_line.h
 
 SRCS = get_next_line.c \
-	   ft_intlen.c ft_isspace.c \
+	   ft_intlen.c ft_isspace.c ft_atoi_base.c\
 	   ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c ft_memmove.c \
 	   ft_memchr.c ft_memcmp.c ft_strlen.c ft_strdup.c ft_strcpy.c \
 	   ft_strncpy.c ft_strcat.c ft_strncat.c ft_strlcat.c ft_strchr.c \
