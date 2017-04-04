@@ -6,7 +6,7 @@
 /*   By: ssumodhe <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/15 16:04:07 by ssumodhe          #+#    #+#             */
-/*   Updated: 2017/03/30 16:55:39 by ssumodhe         ###   ########.fr       */
+/*   Updated: 2017/04/04 16:15:07 by ssumodhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,6 +49,7 @@ int					get_next_line(const int fd, char **line);
 int					ft_intlen(int n);
 int					ft_isspace(char c);
 int					ft_atoi_base(const char *str, int str_base);
+void				ft_exit(char *str);
 
 /*
 ** Fonctions de bases
